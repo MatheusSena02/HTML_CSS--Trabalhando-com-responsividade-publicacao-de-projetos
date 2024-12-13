@@ -40,3 +40,25 @@
     --nome-da-variavel: atribuicao;         escopo local
 }
 ```
+# Unidades de Media (Responsividade)
+
+* Medidas Absolutas : Medidas fixas, inalteráveis. O valor expresso será o mesmo valor sempre.  (**Pixels**)
+
+* Medidas Relativas : Medidas adaptativas, são valores que levam em conta outros fatores para determinar o valor da medida. (**VH**)
+
+* **REM** : Tamanho da fonte configurada no elemento <html> do documento. Isso significa que o tamanho é baseado na fonte padrão definida pelo navegador.       [Conversor de Medidas][https://nekocalc.com/px-to-rem-converter]
+
+* **Porcentagem (%)** : Ela define os valores como uma fração do elemento pai ou outro elemento definido, ou seja, os valores são calculados em relação ao elemento pai. 
+
+# Medias Queries 
+
+*Permitem que você aplique estilos CSS dependendo do tipo de mídia de um dispositivo, ou seja, funciona como um "if" para recursos de disposição em tela*
+
+```
+ @media (condição)
+ {
+    elemento(classe ou tag){
+        estilização
+    }
+ }
+ ```
